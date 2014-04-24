@@ -2,10 +2,16 @@
 layout: main
 ---
 <div class="project">
-	<a href="/">&#8592; All Projects</a>
+	<a href="/">&#8592; Home</a>
 	<div class="heroImage" id="{{page.htmlID}}Cover">
-	<h1>{{page.client}}</h1>
-	<h2>{{page.description}}</h2>
-</div>
+		<div class="row">
+			<div class="small-12 columns">
+				<h1>{{page.client}}</h1>
+				<h2>{{page.description}}</h2>
+			</div>
+		</div>
+	</div>
+	<div class="content">
 			{{ content }}
+	</div>
 </div>
