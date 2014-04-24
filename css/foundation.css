@@ -1203,7 +1203,6 @@ h1,
 h2,
 h3,
 h4,
-.project .content dd,
 h5,
 h6,
 pre,
@@ -1255,7 +1254,7 @@ p aside {
 
 /* Default header styles */
 /* line 782, ../sass/foundation.scss */
-h1, h2, h3, h4, .project .content dd, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -1267,7 +1266,7 @@ h1, h2, h3, h4, .project .content dd, h5, h6 {
 }
 
 /* line 791, ../sass/foundation.scss */
-h1 small, h2 small, h3 small, h4 small, .project .content dd small, h5 small, h6 small {
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
   color: #6f6f6f;
   line-height: 0;
@@ -1289,7 +1288,7 @@ h3 {
 }
 
 /* line 805, ../sass/foundation.scss */
-h4, .project .content dd {
+h4 {
   font-size: 1.125em;
 }
 
@@ -1498,7 +1497,7 @@ blockquote p {
 
 @media only screen and (min-width: 640px) {
   /* line 940, ../sass/foundation.scss */
-  h1, h2, h3, h4, .project .content dd, h5, h6 {
+  h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 
@@ -1518,7 +1517,7 @@ blockquote p {
   }
 
   /* line 952, ../sass/foundation.scss */
-  h4, .project .content dd {
+  h4 {
     font-size: 1.4375em;
   }
 }
@@ -2412,18 +2411,18 @@ label.error {
 }
 
 /* line 1558, ../sass/foundation.scss */
-.panel h1, .panel h2, .panel h3, .panel h4, .panel .project .content dd, .project .content .panel dd, .panel h5, .panel h6, .panel p {
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
   color: #333333;
 }
 
 /* line 1560, ../sass/foundation.scss */
-.panel h1, .panel h2, .panel h3, .panel h4, .panel .project .content dd, .project .content .panel dd, .panel h5, .panel h6 {
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
   line-height: 1;
   margin-bottom: 0.625em;
 }
 
 /* line 1563, ../sass/foundation.scss */
-.panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel .project .content dd.subheader, .project .content .panel dd.subheader, .panel h5.subheader, .panel h6.subheader {
+.panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
   line-height: 1.4;
 }
 
@@ -2450,18 +2449,18 @@ label.error {
 }
 
 /* line 1578, ../sass/foundation.scss */
-.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout .project .content dd, .project .content .panel.callout dd, .panel.callout h5, .panel.callout h6, .panel.callout p {
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
   color: white;
 }
 
 /* line 1580, ../sass/foundation.scss */
-.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout .project .content dd, .project .content .panel.callout dd, .panel.callout h5, .panel.callout h6 {
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
   line-height: 1;
   margin-bottom: 0.625em;
 }
 
 /* line 1583, ../sass/foundation.scss */
-.panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout .project .content dd.subheader, .project .content .panel.callout dd.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
+.panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
   line-height: 1.4;
 }
 
@@ -2522,18 +2521,23 @@ label.error {
   background-size: cover;
 }
 /* line 1643, ../sass/foundation.scss */
+#work #goo {
+  background: #dddddd no-repeat url("../img/gooBanner.jpg") center center;
+  background-size: cover;
+}
+/* line 1648, ../sass/foundation.scss */
 #work #oak {
   background: #dddddd no-repeat url("../img/oakBanner.jpg") center center;
   background-size: cover;
 }
-/* line 1648, ../sass/foundation.scss */
+/* line 1653, ../sass/foundation.scss */
 #work #gym {
   background: #dddddd no-repeat url("../img/320g.jpg") center center;
   background-size: cover;
 }
 
 /********  hi  *****************/
-/* line 1657, ../sass/foundation.scss */
+/* line 1662, ../sass/foundation.scss */
 #hi img, #hi div {
   display: block;
   margin: 1rem auto;
@@ -2541,14 +2545,14 @@ label.error {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1664, ../sass/foundation.scss */
+  /* line 1670, ../sass/foundation.scss */
   #hi img {
     width: 35%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 1670, ../sass/foundation.scss */
+  /* line 1676, ../sass/foundation.scss */
   #hi div {
     margin-left: 1rem;
     width: 60%;
@@ -2557,74 +2561,74 @@ label.error {
 }
 /*----Above 768----*/
 @media only screen and (min-width: 640px) {
-  /* line 1679, ../sass/foundation.scss */
+  /* line 1686, ../sass/foundation.scss */
   #hi {
     position: fixed;
     top: 0;
     bottom: 0;
   }
 
-  /* line 1685, ../sass/foundation.scss */
+  /* line 1692, ../sass/foundation.scss */
   #hi img {
     margin: 1rem auto;
     width: 100%;
     padding: 0 1rem;
   }
 
-  /* line 1691, ../sass/foundation.scss */
+  /* line 1698, ../sass/foundation.scss */
   #hi div {
     width: 100%;
     padding: 1rem;
   }
 
-  /* line 1696, ../sass/foundation.scss */
+  /* line 1703, ../sass/foundation.scss */
   #hi img, #hi div {
     max-width: 18rem;
   }
 }
 /*****  PROJECTS  *****/
-/* line 1707, ../sass/foundation.scss */
+/* line 1714, ../sass/foundation.scss */
 .heroImage h1, .heroImage h2 {
   color: #fff;
   text-shadow: 1px 1px 3px #111;
   margin: 0;
 }
-/* line 1713, ../sass/foundation.scss */
+/* line 1720, ../sass/foundation.scss */
 .heroImage h1 {
   padding-top: 16rem;
   text-transform: uppercase;
 }
-/* line 1718, ../sass/foundation.scss */
+/* line 1725, ../sass/foundation.scss */
 .heroImage h2 {
   padding-bottom: 2rem;
   text-transform: capitalize !important;
 }
 
-/* line 1724, ../sass/foundation.scss */
+/* line 1731, ../sass/foundation.scss */
 #wokCover {
   background: #dddddd no-repeat url("../img/wokCover.jpg") center center;
   background-size: cover;
 }
 
-/* line 1729, ../sass/foundation.scss */
+/* line 1736, ../sass/foundation.scss */
 #gooCover {
   background: #dddddd no-repeat url("../img/gooCover.jpg") center center;
   background-size: cover;
 }
 
-/* line 1734, ../sass/foundation.scss */
+/* line 1741, ../sass/foundation.scss */
 #oakCover {
   background: #dddddd no-repeat url("../img/oakCover.jpg") center center;
   background-size: cover;
 }
 
-/* line 1739, ../sass/foundation.scss */
+/* line 1746, ../sass/foundation.scss */
 #gymCover {
   background: #dddddd no-repeat url("../img/gymCover.jpg") center center;
   background-size: cover;
 }
 
-/* line 1746, ../sass/foundation.scss */
+/* line 1753, ../sass/foundation.scss */
 .project > a {
   display: block;
   width: 100%;
@@ -2633,45 +2637,50 @@ label.error {
   opacity: .92;
   background: #fff;
 }
-/* line 1755, ../sass/foundation.scss */
+/* line 1762, ../sass/foundation.scss */
 .project img {
   width: 100%;
 }
-/* line 1759, ../sass/foundation.scss */
+/* line 1766, ../sass/foundation.scss */
 .project .row {
   max-width: 80rem;
   padding-top: 1rem;
 }
-/* line 1764, ../sass/foundation.scss */
+/* line 1771, ../sass/foundation.scss */
 .project .lede {
   font-size: 1.4rem;
 }
-/* line 1768, ../sass/foundation.scss */
+/* line 1775, ../sass/foundation.scss */
 .project h2 {
   text-transform: uppercase;
 }
-/* line 1772, ../sass/foundation.scss */
+/* line 1779, ../sass/foundation.scss */
 .project .content {
   padding: 1.25rem 0 1.25rem 0;
 }
-/* line 1775, ../sass/foundation.scss */
+/* line 1782, ../sass/foundation.scss */
 .project .content h2:before {
   content: "▁";
   position: absolute;
-  top: -6rem;
-  font-size: 5rem;
+  top: -2.5rem;
+  font-size: 2.5rem;
 }
-/* line 1782, ../sass/foundation.scss */
+/* line 1790, ../sass/foundation.scss */
 .project .content dt {
   font-weight: normal;
-  text-transform: uppercase;
   font-size: .75rem;
   line-height: .75rem;
   padding-top: 1rem;
 }
+/* line 1797, ../sass/foundation.scss */
+.project .content dd {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
 
 /* Helpers */
-/* line 1799, ../sass/foundation.scss */
+/* line 1808, ../sass/foundation.scss */
 .strikethrough {
   text-decoration: line-through;
 }

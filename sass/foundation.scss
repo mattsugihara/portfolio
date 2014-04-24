@@ -1666,41 +1666,43 @@ label.error {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){
-  #hi img{
-    width: 35%;
-    display: inline-block;
-    vertical-align: top;
-  }
 
-  #hi div{
-    margin-left: 1rem;
-    width: 60%;
-    display: inline-block;
-  }
+#hi img{
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#hi div{
+  margin-left: 1rem;
+  width: 60%;
+  display: inline-block;
+}
+
 }
 
 /*----Above 768----*/
 @media only screen and (min-width: 640px){
-  #hi{
-  	position:fixed;
-  	top: 0;
-  	bottom: 0;
-  }
+#hi{
+	position:fixed;
+	top: 0;
+	bottom: 0;
+}
 
-  #hi img{
-    margin: 1rem auto;
-    width: 100%;
-    padding: 0 1rem;
-  }
+#hi img{
+  margin: 1rem auto;
+  width: 100%;
+  padding: 0 1rem;
+}
 
-  #hi div{
-    width: 100%;
-    padding: 1rem;
-  }
+#hi div{
+  width: 100%;
+  padding: 1rem;
+}
 
-  #hi img, #hi div{
-    max-width: 18rem;
-  }
+#hi img, #hi div{
+  max-width: 18rem;
+}
 }
 
 
