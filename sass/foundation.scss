@@ -13,7 +13,7 @@ body {
 
 body {
   background: white;
-  color: #222222;
+  color: #333;
   padding: 0;
   margin: 0;
 	font-family: 'Roboto', sans-serif;
@@ -783,7 +783,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #222222;
+  color: #333;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -1798,6 +1798,11 @@ label.error {
       font-weight: 800;
       text-transform: uppercase;
       font-size: 1.25rem;
+    }
+    
+    ul{
+      list-style: square;
+      padding-left: 2rem;
     }
   }
 }

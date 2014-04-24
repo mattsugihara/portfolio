@@ -18,7 +18,7 @@ body {
 /* line 14, ../sass/foundation.scss */
 body {
   background: white;
-  color: #222222;
+  color: #333;
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -1258,7 +1258,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #222222;
+  color: #333;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -2678,9 +2678,14 @@ label.error {
   text-transform: uppercase;
   font-size: 1.25rem;
 }
+/* line 1803, ../sass/foundation.scss */
+.project .content ul {
+  list-style: square;
+  padding-left: 2rem;
+}
 
 /* Helpers */
-/* line 1808, ../sass/foundation.scss */
+/* line 1813, ../sass/foundation.scss */
 .strikethrough {
   text-decoration: line-through;
 }

@@ -2,3 +2,4 @@ name: portfolio
 markdown: redcarpet
 pygments: true
 permalink: :title
+#host: 10.0.1.65
