@@ -1620,6 +1620,7 @@ label.error {
     li{
       height: 18.75rem;
       overflow: hidden;
+      background: #DDD;
     
       a {
         display: block;
@@ -1629,11 +1630,15 @@ label.error {
       }
       
       a:hover {
-       height: 20rem;
+       // height: 20rem; Change this to undo a greyscale
       }
     }
   }
 
+#llb{
+    background: #ddd no-repeat url('../img/llbBanner.jpg') center center;
+    background-size: cover;
+  }
 
   #wok{
   	background: #ddd no-repeat url('../img/wokBanner.jpg') center center;
@@ -1728,6 +1733,11 @@ label.error {
   }
 }
 
+#llbCover{
+  background: #ddd no-repeat url('../img/llbCover.jpg') center center;
+  background-size: cover;
+}
+
 #wokCover{
   background: #ddd no-repeat url('../img/wokCover.jpg') center center;
   background-size: cover;
@@ -1777,7 +1787,11 @@ label.error {
   }
 
   .content{
-    padding: 1.25rem 0 1.25rem 0;
+    padding-top: 1.25rem;
+
+    .row{
+      padding-bottom: 1rem;
+    }
 
     h2:before{
       // content: "▂";
@@ -1785,6 +1799,7 @@ label.error {
       position: absolute;
       top:-2.5rem;
       font-size: 2.5rem;
+      color: #6A76F7;
     }
 
     dt{
@@ -1803,6 +1818,10 @@ label.error {
     ul{
       list-style: square;
       padding-left: 2rem;
+    }
+
+    img {
+      box-shadow: 1px 1px 8px #ddd;
     }
   }
 }
