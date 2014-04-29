@@ -1621,18 +1621,24 @@ label.error {
       height: 18.75rem;
       overflow: hidden;
       background: #DDD;
+      border-bottom: .25rem solid #fff;
     
       a {
         display: block;
         background-size: cover;
         height: 18.75rem;
         transition: all .3s ease;
+
       }
       
       a:hover {
-       height: 20rem; // Change this to undo a greyscale
+       // height: 20rem; // Change this to undo a greyscale
       }
     }
+
+    :last-child{
+        border:none;
+      }
   }
 
   #llb-cover{
@@ -1738,45 +1744,53 @@ label.error {
   }
 }
 
-#llbCover{
+#llb-cover{
   background: #ddd no-repeat url('../img/cover-llb.jpg') center center;
   background-size: cover;
 }
 
-#pumCover{
+#pum-cover{
   background: #ddd no-repeat url('../img/cover-pum.jpg') center center;
   background-size: cover;
 }
 
-#wokCover{
+#wok-cover{
   background: #ddd no-repeat url('../img/cover-wok.jpg') center center;
   background-size: cover;
 }
 
-#gooCover{
+#goo-cover{
   background: #ddd no-repeat url('../img/cover-goo.jpg') center center;
   background-size: cover;
 }
 
-#oakCover{
+#oak-cover{
   background: #ddd no-repeat url('../img/cover-oak.jpg') center center;
   background-size: cover;
 }
 
-#gymCover{
+#gym-cover{
   background: #ddd no-repeat url('../img/cover-gym.jpg') center center;
   background-size: cover;
 }
 
 .project {
-
-  > a{
+  
+  .back-to-home{
     display: block;
-    width: 100%;
+    position: absolute;
+    z-index: 1;
     padding: 1rem;
+    width: 100%;
     box-shadow: 0px 0px 1rem #000;
     opacity: .92;
     background: #fff;
+    margin-bottom: -3rem;
+
+    :hover{
+      opacity: 1;
+    }
+    
   }
 
   img{
