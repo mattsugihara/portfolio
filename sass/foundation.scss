@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,700|Roboto+Slab);
 
+$light-blue: #6A76F7;
+$dark-blue: #1522A6;
+$light-orange: #F49144;
+$dark-orange: #E64503;
+
+
 *,
 *:before,
 *:after {
@@ -756,12 +762,15 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #2ba6cb;
+  color: $light-blue;
   text-decoration: none;
-  line-height: inherit; }
-  a:hover, a:focus {
-    color: #2795b6;
+  line-height: inherit;
+  
+  :hover, :focus {
+    color: $dark-orange;
+  }
 }
+
   a img {
     border: none; }
 
@@ -1681,13 +1690,19 @@ label.error {
   max-width: 100%;
 }
 
+#social-media img{
+  display: inline-block;
+}
+
 @media only screen and (min-width: 480px) and (max-width: 767px){
 
-#hi img{
+#me{
   width: 35%;
   display: inline-block;
   vertical-align: top;
 }
+
+
 
 #hi div{
   margin-left: 1rem;
@@ -1705,7 +1720,7 @@ label.error {
 	bottom: 0;
 }
 
-#hi img{
+#me{
   margin: 1rem auto;
   width: 100%;
   padding: 0 1rem;
@@ -1847,6 +1862,7 @@ label.error {
     img {
       box-shadow: 1px 1px 8px #ddd;
     }
+
   }
 }
 

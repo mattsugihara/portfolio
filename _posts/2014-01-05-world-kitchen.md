@@ -35,19 +35,11 @@ htmlID: "wok"
 			<li>Develop wireframes, site architecture, and a detailed functional specifications document</li>
 			<li>Coordinate build efforts with the engineering and visual design teams</li>
 		</ul>
-		<!--
-		<p>
-			<a href="http://www.worldkitchen.com/">World Kitchen</a> approached Fluid to design and build a unified, custom Demandware store front from which to sell products from each of their six brands (Corelle, Pyrex, Conringware, Chicago Cutlery, Snapwear and Baker's Secret). The crux of the project was creating a design system that would allow each brand to give their customers a strongly branded experience within the frame work of a unified design system.
-		</p>
-		<p>
-			To accomplish this, we leveraged atomic design to provide each brandwith a kit of modules that they could use to build page templates that suited their individual needs. This ensured an extremely managable site that still fit the dissimilar requirements of each brand.
-		</p>
-	-->
 	</div>
 </div>
 <div class="row">
 	<div class="small-12 columns">
-		<h2>Project Details</h2>
+		<h2>Sample Deliverables</h2>
 	</div>
 	<div class="large-4 push-8 columns">
 		<p>
@@ -62,32 +54,17 @@ htmlID: "wok"
 	</div>
 </div>
 <div class="row">
-	<div class="large-4 push-8 columns">
-		<p>
-			Lorem ipusm dolor sit amet
-		</p>
-	</div>
-	<div class="large-8 pull-4 columns">
+	<div class="large-8 columns end">
 		 <a href="/img/wok-mobile-navigation.png"><img src="/img/wok-mobile-navigation.png" /></a>
 	</div>
 </div>
 <div class="row">
-	<div class="large-4 push-8 columns">
-		<p>
-			Lorem ipusm dolor sit amet
-		</p>
-	</div>
-	<div class="large-8 pull-4 columns">
-		 <a href="/img/wok-brand-landing-page.png"><img src="/img/wok-brand-landing-page.png" /></a>
+	<div class="large-8 columns end">
+		 <a href="/img/wok-brand-landing-page.png target="><img src="/img/wok-brand-landing-page.png" /></a>
 	</div>
 </div>
 <div class="row">
-	<div class="large-4 push-8 columns">
-		<p>
-			Lorem ipusm dolor sit amet
-		</p>
-	</div>
-	<div class="large-8 pull-4 columns">
+	<div class="large-8 columns end">
 		 <a href="/img/wok-overlay-results.png"><img src="/img/wok-overlay-results.png" /></a>
 	</div>
 </div>
