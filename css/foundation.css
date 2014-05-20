@@ -2516,59 +2516,62 @@ label.error {
 #work ul :last-child {
   border: none;
 }
-/* line 1653, ../sass/foundation.scss */
-#work #llb-cover {
-  background: #dddddd no-repeat url("../img/cover-llb.jpg") center center;
-  background-size: cover;
-}
-/* line 1658, ../sass/foundation.scss */
-#work #pum-cover {
-  background: #dddddd no-repeat url("../img/cover-pum.jpg") center center;
-  background-size: cover;
-}
-/* line 1663, ../sass/foundation.scss */
-#work #wok-cover {
-  background: #dddddd no-repeat url("../img/cover-wok.jpg") center center;
-  background-size: cover;
-}
-/* line 1668, ../sass/foundation.scss */
-#work #goo-cover {
-  background: #dddddd no-repeat url("../img/cover-goo.jpg") center center;
-  background-size: cover;
-}
-/* line 1673, ../sass/foundation.scss */
-#work #oak-cover {
-  background: #dddddd no-repeat url("../img/cover-oak.jpg") center center;
-  background-size: cover;
-}
-/* line 1678, ../sass/foundation.scss */
-#work #gym-cover {
-  background: #dddddd no-repeat url("../img/320g.jpg") center center;
-  background-size: cover;
-}
 
 /********  hi  *****************/
-/* line 1687, ../sass/foundation.scss */
+/* line 1658, ../sass/foundation.scss */
 #hi img, #hi div {
   display: block;
   margin: 1rem auto;
   max-width: 100%;
 }
 
-/* line 1693, ../sass/foundation.scss */
-#social-media img {
+/* line 1665, ../sass/foundation.scss */
+#social-media a {
   display: inline-block;
+  height: 2.125rem;
+  width: 2.125rem;
+  margin-right: 1rem;
+}
+/* line 1670, ../sass/foundation.scss */
+#social-media a:last-child {
+  margin-right: 0;
+}
+/* line 1675, ../sass/foundation.scss */
+#social-media #twitter {
+  background: no-repeat url("/img/sprite.png");
+}
+/* line 1678, ../sass/foundation.scss */
+#social-media #twitter:hover {
+  background-position: 0px -34px;
+}
+/* line 1682, ../sass/foundation.scss */
+#social-media #linked-in {
+  background: no-repeat url("/img/sprite.png");
+  background-position: -33px 0px;
+}
+/* line 1686, ../sass/foundation.scss */
+#social-media #linked-in:hover {
+  background-position: -33px -34px;
+}
+/* line 1691, ../sass/foundation.scss */
+#social-media #github {
+  background: no-repeat url("/img/sprite.png");
+  background-position: -67px 0px;
+}
+/* line 1695, ../sass/foundation.scss */
+#social-media #github:hover {
+  background-position: -67px -34px;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1699, ../sass/foundation.scss */
+  /* line 1704, ../sass/foundation.scss */
   #me {
     width: 35%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 1707, ../sass/foundation.scss */
+  /* line 1712, ../sass/foundation.scss */
   #hi div {
     margin-left: 1rem;
     width: 60%;
@@ -2577,86 +2580,86 @@ label.error {
 }
 /*----Above 768----*/
 @media only screen and (min-width: 640px) {
-  /* line 1717, ../sass/foundation.scss */
+  /* line 1722, ../sass/foundation.scss */
   #hi {
     position: fixed;
     top: 0;
     bottom: 0;
   }
 
-  /* line 1723, ../sass/foundation.scss */
+  /* line 1728, ../sass/foundation.scss */
   #me {
     margin: 1rem auto;
     width: 100%;
     padding: 0 1rem;
   }
 
-  /* line 1729, ../sass/foundation.scss */
+  /* line 1734, ../sass/foundation.scss */
   #hi div {
     width: 100%;
     padding: 1rem;
   }
 
-  /* line 1734, ../sass/foundation.scss */
+  /* line 1739, ../sass/foundation.scss */
   #hi img, #hi div {
     max-width: 18rem;
   }
 }
 /*****  PROJECTS  *****/
-/* line 1745, ../sass/foundation.scss */
+/* line 1750, ../sass/foundation.scss */
 .heroImage h1, .heroImage h2 {
   color: #fff;
   text-shadow: 1px 1px 3px #111;
   margin: 0;
 }
-/* line 1751, ../sass/foundation.scss */
+/* line 1756, ../sass/foundation.scss */
 .heroImage h1 {
   padding-top: 18rem;
   text-transform: uppercase;
 }
-/* line 1756, ../sass/foundation.scss */
+/* line 1761, ../sass/foundation.scss */
 .heroImage h2 {
   padding-bottom: 2rem;
   text-transform: capitalize !important;
 }
 
-/* line 1762, ../sass/foundation.scss */
+/* line 1767, ../sass/foundation.scss */
 #llb-cover {
   background: #dddddd no-repeat url("../img/cover-llb.jpg") center center;
   background-size: cover;
 }
 
-/* line 1767, ../sass/foundation.scss */
+/* line 1772, ../sass/foundation.scss */
 #pum-cover {
   background: #dddddd no-repeat url("../img/cover-pum.jpg") center center;
   background-size: cover;
 }
 
-/* line 1772, ../sass/foundation.scss */
+/* line 1777, ../sass/foundation.scss */
+#mic-cover {
+  background: #dddddd no-repeat url("../img/cover-mic.jpg") center center;
+  background-size: cover;
+}
+
+/* line 1782, ../sass/foundation.scss */
 #wok-cover {
   background: #dddddd no-repeat url("../img/cover-wok.jpg") center center;
   background-size: cover;
 }
 
-/* line 1777, ../sass/foundation.scss */
+/* line 1787, ../sass/foundation.scss */
 #goo-cover {
   background: #dddddd no-repeat url("../img/cover-goo.jpg") center center;
   background-size: cover;
 }
 
-/* line 1782, ../sass/foundation.scss */
+/* line 1792, ../sass/foundation.scss */
 #oak-cover {
   background: #dddddd no-repeat url("../img/cover-oak.jpg") center center;
   background-size: cover;
 }
 
-/* line 1787, ../sass/foundation.scss */
-#gym-cover {
-  background: #dddddd no-repeat url("../img/cover-gym.jpg") center center;
-  background-size: cover;
-}
-
-/* line 1794, ../sass/foundation.scss */
+/* line 1799, ../sass/foundation.scss */
 .project .back-to-home {
   display: block;
   position: absolute;
@@ -2668,67 +2671,61 @@ label.error {
   background: #fff;
   margin-bottom: -3rem;
 }
-/* line 1805, ../sass/foundation.scss */
+/* line 1810, ../sass/foundation.scss */
 .project .back-to-home :hover {
   opacity: 1;
 }
-/* line 1811, ../sass/foundation.scss */
+/* line 1816, ../sass/foundation.scss */
 .project img {
   width: 100%;
 }
-/* line 1815, ../sass/foundation.scss */
+/* line 1820, ../sass/foundation.scss */
 .project .row {
   max-width: 80rem;
   padding-top: 1rem;
 }
-/* line 1820, ../sass/foundation.scss */
+/* line 1825, ../sass/foundation.scss */
 .project .lede {
   font-size: 1.4rem;
 }
-/* line 1824, ../sass/foundation.scss */
+/* line 1829, ../sass/foundation.scss */
 .project h2 {
   text-transform: uppercase;
 }
-/* line 1828, ../sass/foundation.scss */
+/* line 1833, ../sass/foundation.scss */
 .project .content {
   padding-top: 1.25rem;
 }
-/* line 1831, ../sass/foundation.scss */
+/* line 1836, ../sass/foundation.scss */
 .project .content .row {
   padding-bottom: 1rem;
 }
-/* line 1835, ../sass/foundation.scss */
+/* line 1840, ../sass/foundation.scss */
 .project .content h2:before {
   content: "▁";
   position: absolute;
   top: -2.5rem;
   font-size: 2.5rem;
 }
-/* line 1844, ../sass/foundation.scss */
+/* line 1849, ../sass/foundation.scss */
 .project .content dt {
   font-weight: normal;
   font-size: .75rem;
   line-height: .75rem;
   padding-top: 1rem;
 }
-/* line 1851, ../sass/foundation.scss */
+/* line 1856, ../sass/foundation.scss */
 .project .content dd {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 1.25rem;
 }
-/* line 1857, ../sass/foundation.scss */
+/* line 1862, ../sass/foundation.scss */
 .project .content ul {
   list-style: square;
   padding-left: 2rem;
 }
-/* line 1862, ../sass/foundation.scss */
+/* line 1867, ../sass/foundation.scss */
 .project .content img {
   box-shadow: 1px 1px 8px #ddd;
-}
-
-/* Helpers */
-/* line 1872, ../sass/foundation.scss */
-.strikethrough {
-  text-decoration: line-through;
 }

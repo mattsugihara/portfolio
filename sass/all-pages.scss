@@ -1,0 +1,302 @@
+/**** Home ****/
+
+#work{
+  padding: 0;
+  margin: 0;
+
+  h2, h3{
+    color: #FFF;
+    text-shadow: 1px 1px 3px #111;
+    padding-left: 2rem;
+  }
+  
+  h2{
+    text-transform:uppercase;
+    margin: 0;
+    padding-top: 12rem;
+    line-height: auto;
+  }
+
+  h3{
+    padding-bottom: 2rem;
+  }
+
+  
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li{
+      height: 18.75rem;
+      overflow: hidden;
+      background: #DDD;
+      border-bottom: .25rem solid #fff;
+    
+      a {
+        display: block;
+        background-size: cover;
+        height: 18.75rem;
+        transition: all .3s ease;
+
+      }
+      
+      a:hover {
+       // height: 20rem; // Change this to undo a greyscale
+      }
+    }
+
+    :last-child{
+        border:none;
+      }
+  }
+
+  #llb-cover{
+    background: #ddd no-repeat url('../img/cover-llb.jpg') center center;
+    background-size: cover;
+  }
+
+  #pum-cover{
+    background: #ddd no-repeat url('../img/cover-pum.jpg') center center;
+    background-size: cover;
+  }
+
+  #wok-cover{
+  	background: #ddd no-repeat url('../img/cover-wok.jpg') center center;
+    background-size: cover;
+  }
+  
+  #goo-cover{
+    background: #ddd no-repeat url('../img/cover-goo.jpg') center center;
+    background-size: cover;
+  }
+  
+  #oak-cover{
+    background: #ddd no-repeat url('../img/cover-oak.jpg') center center;
+    background-size: cover;
+  }
+
+  #gym-cover{
+    background: #ddd no-repeat url('../img/320g.jpg') center center;
+    background-size: cover;
+  }
+}
+
+
+
+/********  hi  *****************/
+#hi img, #hi div{
+	display:block;
+	margin: 1rem auto;
+  max-width: 100%;
+}
+
+#social-media{
+  a{
+    display: inline-block;
+    height: 2.125rem;
+    width: 2.125rem;
+    margin-right: 1rem;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  
+  #twitter{
+    background: no-repeat url('/img/sprite.png');
+    
+    &:hover{
+      background-position: 0px -34px;
+    }
+  }
+  #linked-in{
+    background: no-repeat url('/img/sprite.png');
+    background-position: -33px 0px;
+    
+    &:hover{
+      background-position: -33px -34px;
+    }
+  }
+
+  #github{
+    background: no-repeat url('/img/sprite.png');
+    background-position: -67px 0px;
+    
+    &:hover{
+      background-position: -67px -34px;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+#me{
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+#hi div{
+  margin-left: 1rem;
+  width: 60%;
+  display: inline-block;
+}
+
+}
+
+/*----Above 768----*/
+@media only screen and (min-width: 640px){
+#hi{
+	position:fixed;
+	top: 0;
+	bottom: 0;
+}
+
+#me{
+  margin: 1rem auto;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+#hi div{
+  width: 100%;
+  padding: 1rem;
+}
+
+#hi img, #hi div{
+  max-width: 18rem;
+}
+}
+
+
+
+/*****  PROJECTS  *****/
+
+.heroImage{
+
+  h1, h2{
+  color: #fff;
+  text-shadow: 1px 1px 3px #111;
+  margin: 0;
+  }
+  
+  h1{
+    padding-top: 18rem;
+    text-transform: uppercase;
+  }
+
+  h2{
+    padding-bottom: 2rem;
+    text-transform: capitalize !important;
+  }
+}
+
+#llb-cover{
+  background: #ddd no-repeat url('../img/cover-llb.jpg') center center;
+  background-size: cover;
+}
+
+#pum-cover{
+  background: #ddd no-repeat url('../img/cover-pum.jpg') center center;
+  background-size: cover;
+}
+
+#wok-cover{
+  background: #ddd no-repeat url('../img/cover-wok.jpg') center center;
+  background-size: cover;
+}
+
+#goo-cover{
+  background: #ddd no-repeat url('../img/cover-goo.jpg') center center;
+  background-size: cover;
+}
+
+#oak-cover{
+  background: #ddd no-repeat url('../img/cover-oak.jpg') center center;
+  background-size: cover;
+}
+
+#gym-cover{
+  background: #ddd no-repeat url('../img/cover-gym.jpg') center center;
+  background-size: cover;
+}
+
+.project {
+  
+  .back-to-home{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0px 0px 1rem #000;
+    opacity: .92;
+    background: #fff;
+    margin-bottom: -3rem;
+
+    :hover{
+      opacity: 1;
+    }
+    
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .row{
+    max-width: 80rem;
+    padding-top: 1rem;
+  }
+
+  .lede{
+    font-size: 1.4rem;
+  }
+
+  h2{
+    text-transform: uppercase;
+  }
+
+  .content{
+    padding-top: 1.25rem;
+
+    .row{
+      padding-bottom: 1rem;
+    }
+
+    h2:before{
+      // content: "▂";
+      content: "▁";
+      position: absolute;
+      top:-2.5rem;
+      font-size: 2.5rem;
+      // color: #6A76F7;
+    }
+
+    dt{
+      font-weight: normal;
+      font-size: .75rem;
+      line-height: .75rem;
+      padding-top: 1rem;
+    }
+
+    dd{
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 1.25rem;
+    }
+    
+    ul{
+      list-style: square;
+      padding-left: 2rem;
+    }
+
+    img {
+      box-shadow: 1px 1px 8px #ddd;
+    }
+
+  }
+}

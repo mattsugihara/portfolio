@@ -1650,35 +1650,6 @@ label.error {
       }
   }
 
-  #llb-cover{
-    background: #ddd no-repeat url('../img/cover-llb.jpg') center center;
-    background-size: cover;
-  }
-
-  #pum-cover{
-    background: #ddd no-repeat url('../img/cover-pum.jpg') center center;
-    background-size: cover;
-  }
-
-  #wok-cover{
-  	background: #ddd no-repeat url('../img/cover-wok.jpg') center center;
-    background-size: cover;
-  }
-  
-  #goo-cover{
-    background: #ddd no-repeat url('../img/cover-goo.jpg') center center;
-    background-size: cover;
-  }
-  
-  #oak-cover{
-    background: #ddd no-repeat url('../img/cover-oak.jpg') center center;
-    background-size: cover;
-  }
-
-  #gym-cover{
-    background: #ddd no-repeat url('../img/320g.jpg') center center;
-    background-size: cover;
-  }
 }
 
 
@@ -1690,9 +1661,43 @@ label.error {
   max-width: 100%;
 }
 
-#social-media img{
-  display: inline-block;
+#social-media{
+  a{
+    display: inline-block;
+    height: 2.125rem;
+    width: 2.125rem;
+    margin-right: 1rem;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  
+  #twitter{
+    background: no-repeat url('/img/sprite.png');
+    
+    &:hover{
+      background-position: 0px -34px;
+    }
+  }
+  #linked-in{
+    background: no-repeat url('/img/sprite.png');
+    background-position: -33px 0px;
+    
+    &:hover{
+      background-position: -33px -34px;
+    }
+  }
+
+  #github{
+    background: no-repeat url('/img/sprite.png');
+    background-position: -67px 0px;
+    
+    &:hover{
+      background-position: -67px -34px;
+    }
+  }
 }
+
 
 @media only screen and (min-width: 480px) and (max-width: 767px){
 
@@ -1769,6 +1774,11 @@ label.error {
   background-size: cover;
 }
 
+#mic-cover{
+  background: #ddd no-repeat url('../img/cover-mic.jpg') center center;
+  background-size: cover;
+}
+
 #wok-cover{
   background: #ddd no-repeat url('../img/cover-wok.jpg') center center;
   background-size: cover;
@@ -1781,11 +1791,6 @@ label.error {
 
 #oak-cover{
   background: #ddd no-repeat url('../img/cover-oak.jpg') center center;
-  background-size: cover;
-}
-
-#gym-cover{
-  background: #ddd no-repeat url('../img/cover-gym.jpg') center center;
   background-size: cover;
 }
 
@@ -1864,11 +1869,4 @@ label.error {
     }
 
   }
-}
-
-
-/* Helpers */
-
-.strikethrough{
-  text-decoration: line-through;
 }
