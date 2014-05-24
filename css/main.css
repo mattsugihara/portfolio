@@ -2525,147 +2525,109 @@ label.error {
   max-width: 100%;
 }
 
-/* line 1665, ../sass/foundation.scss */
+/* line 1664, ../sass/foundation.scss */
+#social-media {
+  width: 9rem;
+}
+/* line 1666, ../sass/foundation.scss */
 #social-media a {
   display: inline-block;
   height: 2.125rem;
   width: 2.125rem;
   margin-right: 1rem;
 }
-/* line 1670, ../sass/foundation.scss */
+/* line 1671, ../sass/foundation.scss */
 #social-media a:last-child {
   margin-right: 0;
 }
-/* line 1675, ../sass/foundation.scss */
+/* line 1676, ../sass/foundation.scss */
 #social-media #twitter {
   background: no-repeat url("/img/sprite.png");
 }
-/* line 1678, ../sass/foundation.scss */
+/* line 1679, ../sass/foundation.scss */
 #social-media #twitter:hover {
   background-position: 0px -34px;
 }
-/* line 1682, ../sass/foundation.scss */
+/* line 1683, ../sass/foundation.scss */
 #social-media #linked-in {
   background: no-repeat url("/img/sprite.png");
   background-position: -33px 0px;
 }
-/* line 1686, ../sass/foundation.scss */
+/* line 1687, ../sass/foundation.scss */
 #social-media #linked-in:hover {
   background-position: -33px -34px;
 }
-/* line 1691, ../sass/foundation.scss */
+/* line 1692, ../sass/foundation.scss */
 #social-media #github {
   background: no-repeat url("/img/sprite.png");
   background-position: -67px 0px;
 }
-/* line 1695, ../sass/foundation.scss */
+/* line 1696, ../sass/foundation.scss */
 #social-media #github:hover {
   background-position: -67px -34px;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1704, ../sass/foundation.scss */
-  #me {
-    width: 35%;
-    display: inline-block;
-    vertical-align: top;
-  }
-
-  /* line 1712, ../sass/foundation.scss */
-  #hi div {
-    margin-left: 1rem;
-    width: 60%;
-    display: inline-block;
-  }
-}
-/*----Above 768----*/
-@media only screen and (min-width: 640px) {
-  /* line 1722, ../sass/foundation.scss */
-  #hi {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-  }
-
-  /* line 1728, ../sass/foundation.scss */
-  #me {
-    margin: 1rem auto;
-    width: 100%;
-    padding: 0 1rem;
-  }
-
-  /* line 1734, ../sass/foundation.scss */
-  #hi div {
-    width: 100%;
-    padding: 1rem;
-  }
-
-  /* line 1739, ../sass/foundation.scss */
-  #hi img, #hi div {
-    max-width: 18rem;
-  }
-}
 /*****  PROJECTS  *****/
-/* line 1750, ../sass/foundation.scss */
+/* line 1708, ../sass/foundation.scss */
 .heroImage h1, .heroImage h2 {
   color: #fff;
   text-shadow: 1px 1px 3px #111;
   margin: 0;
 }
-/* line 1756, ../sass/foundation.scss */
+/* line 1714, ../sass/foundation.scss */
 .heroImage h1 {
   padding-top: 18rem;
   text-transform: uppercase;
 }
-/* line 1761, ../sass/foundation.scss */
+/* line 1719, ../sass/foundation.scss */
 .heroImage h2 {
   padding-bottom: 2rem;
   text-transform: capitalize !important;
 }
 
-/* line 1767, ../sass/foundation.scss */
+/* line 1725, ../sass/foundation.scss */
 #llb-cover {
   background: #dddddd no-repeat url("../img/cover-llb.jpg") center center;
   background-size: cover;
 }
 
-/* line 1772, ../sass/foundation.scss */
+/* line 1730, ../sass/foundation.scss */
 #pum-cover {
   background: #dddddd no-repeat url("../img/cover-pum.jpg") center center;
   background-size: cover;
 }
 
-/* line 1777, ../sass/foundation.scss */
+/* line 1735, ../sass/foundation.scss */
 #mic-cover {
   background: #dddddd no-repeat url("../img/cover-mic.jpg") center center;
   background-size: cover;
 }
 
-/* line 1782, ../sass/foundation.scss */
+/* line 1740, ../sass/foundation.scss */
 #wok-cover {
   background: #dddddd no-repeat url("../img/cover-wok.jpg") center center;
   background-size: cover;
 }
 
-/* line 1787, ../sass/foundation.scss */
+/* line 1745, ../sass/foundation.scss */
 #oak-cover {
   background: #dddddd no-repeat url("../img/cover-oak.jpg") center center;
   background-size: cover;
 }
 
-/* line 1794, ../sass/foundation.scss */
+/* line 1751, ../sass/foundation.scss */
 #goo-cover {
   background: #dddddd no-repeat url("../img/cover-goo.jpg") center center;
   background-size: cover;
 }
 
-/* line 1800, ../sass/foundation.scss */
+/* line 1757, ../sass/foundation.scss */
 #car-cover {
   background: #dddddd no-repeat url("../img/cover-car.jpg") center center;
   background-size: cover;
 }
 
-/* line 1808, ../sass/foundation.scss */
+/* line 1765, ../sass/foundation.scss */
 .project .back-to-home {
   display: block;
   position: absolute;
@@ -2677,352 +2639,61 @@ label.error {
   background: #fff;
   margin-bottom: -3rem;
 }
-/* line 1819, ../sass/foundation.scss */
+/* line 1776, ../sass/foundation.scss */
 .project .back-to-home :hover {
   opacity: 1;
 }
-/* line 1825, ../sass/foundation.scss */
+/* line 1782, ../sass/foundation.scss */
 .project img {
   width: 100%;
 }
-/* line 1829, ../sass/foundation.scss */
+/* line 1786, ../sass/foundation.scss */
 .project .row {
   max-width: 80rem;
   padding-top: 1rem;
 }
-/* line 1834, ../sass/foundation.scss */
+/* line 1791, ../sass/foundation.scss */
 .project .lede {
   font-size: 1.4rem;
 }
-/* line 1838, ../sass/foundation.scss */
+/* line 1795, ../sass/foundation.scss */
 .project h2 {
   text-transform: uppercase;
 }
-/* line 1842, ../sass/foundation.scss */
+/* line 1799, ../sass/foundation.scss */
 .project .content {
   padding-top: 1.25rem;
 }
-/* line 1845, ../sass/foundation.scss */
+/* line 1802, ../sass/foundation.scss */
 .project .content .row {
   padding-bottom: 1rem;
 }
-/* line 1849, ../sass/foundation.scss */
+/* line 1806, ../sass/foundation.scss */
 .project .content h2:before {
   content: "▁";
   position: absolute;
   top: -2.5rem;
   font-size: 2.5rem;
 }
-/* line 1858, ../sass/foundation.scss */
+/* line 1815, ../sass/foundation.scss */
 .project .content dt {
   font-weight: normal;
   font-size: .75rem;
   line-height: .75rem;
   padding-top: 1rem;
 }
-/* line 1865, ../sass/foundation.scss */
+/* line 1822, ../sass/foundation.scss */
 .project .content dd {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 1.25rem;
 }
-/* line 1871, ../sass/foundation.scss */
+/* line 1828, ../sass/foundation.scss */
 .project .content ul {
   list-style: square;
   padding-left: 2rem;
 }
-/* line 1876, ../sass/foundation.scss */
-.project .content img {
-  box-shadow: 1px 1px 8px #ddd;
-}
-
-/**** Home ****/
-/* line 3, ../sass/all-pages.scss */
-#work {
-  padding: 0;
-  margin: 0;
-}
-/* line 7, ../sass/all-pages.scss */
-#work h2, #work h3 {
-  color: #FFF;
-  text-shadow: 1px 1px 3px #111;
-  padding-left: 2rem;
-}
-/* line 13, ../sass/all-pages.scss */
-#work h2 {
-  text-transform: uppercase;
-  margin: 0;
-  padding-top: 12rem;
-  line-height: auto;
-}
-/* line 20, ../sass/all-pages.scss */
-#work h3 {
-  padding-bottom: 2rem;
-}
-/* line 25, ../sass/all-pages.scss */
-#work ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-/* line 30, ../sass/all-pages.scss */
-#work ul li {
-  height: 18.75rem;
-  overflow: hidden;
-  background: #DDD;
-  border-bottom: .25rem solid #fff;
-}
-/* line 36, ../sass/all-pages.scss */
-#work ul li a {
-  display: block;
-  background-size: cover;
-  height: 18.75rem;
-  transition: all .3s ease;
-}
-/* line 49, ../sass/all-pages.scss */
-#work ul :last-child {
-  border: none;
-}
-/* line 54, ../sass/all-pages.scss */
-#work #llb-cover {
-  background: #dddddd no-repeat url("../img/cover-llb.jpg") center center;
-  background-size: cover;
-}
-/* line 59, ../sass/all-pages.scss */
-#work #pum-cover {
-  background: #dddddd no-repeat url("../img/cover-pum.jpg") center center;
-  background-size: cover;
-}
-/* line 64, ../sass/all-pages.scss */
-#work #wok-cover {
-  background: #dddddd no-repeat url("../img/cover-wok.jpg") center center;
-  background-size: cover;
-}
-/* line 69, ../sass/all-pages.scss */
-#work #goo-cover {
-  background: #dddddd no-repeat url("../img/cover-goo.jpg") center center;
-  background-size: cover;
-}
-/* line 74, ../sass/all-pages.scss */
-#work #oak-cover {
-  background: #dddddd no-repeat url("../img/cover-oak.jpg") center center;
-  background-size: cover;
-}
-/* line 79, ../sass/all-pages.scss */
-#work #gym-cover {
-  background: #dddddd no-repeat url("../img/320g.jpg") center center;
-  background-size: cover;
-}
-
-/********  hi  *****************/
-/* line 88, ../sass/all-pages.scss */
-#hi img, #hi div {
-  display: block;
-  margin: 1rem auto;
-  max-width: 100%;
-}
-
-/* line 95, ../sass/all-pages.scss */
-#social-media a {
-  display: inline-block;
-  height: 2.125rem;
-  width: 2.125rem;
-  margin-right: 1rem;
-}
-/* line 100, ../sass/all-pages.scss */
-#social-media a:last-child {
-  margin-right: 0;
-}
-/* line 105, ../sass/all-pages.scss */
-#social-media #twitter {
-  background: no-repeat url("/img/sprite.png");
-}
-/* line 108, ../sass/all-pages.scss */
-#social-media #twitter:hover {
-  background-position: 0px -34px;
-}
-/* line 112, ../sass/all-pages.scss */
-#social-media #linked-in {
-  background: no-repeat url("/img/sprite.png");
-  background-position: -33px 0px;
-}
-/* line 116, ../sass/all-pages.scss */
-#social-media #linked-in:hover {
-  background-position: -33px -34px;
-}
-/* line 121, ../sass/all-pages.scss */
-#social-media #github {
-  background: no-repeat url("/img/sprite.png");
-  background-position: -67px 0px;
-}
-/* line 125, ../sass/all-pages.scss */
-#social-media #github:hover {
-  background-position: -67px -34px;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 134, ../sass/all-pages.scss */
-  #me {
-    width: 35%;
-    display: inline-block;
-    vertical-align: top;
-  }
-
-  /* line 142, ../sass/all-pages.scss */
-  #hi div {
-    margin-left: 1rem;
-    width: 60%;
-    display: inline-block;
-  }
-}
-/*----Above 768----*/
-@media only screen and (min-width: 640px) {
-  /* line 152, ../sass/all-pages.scss */
-  #hi {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-  }
-
-  /* line 158, ../sass/all-pages.scss */
-  #me {
-    margin: 1rem auto;
-    width: 100%;
-    padding: 0 1rem;
-  }
-
-  /* line 164, ../sass/all-pages.scss */
-  #hi div {
-    width: 100%;
-    padding: 1rem;
-  }
-
-  /* line 169, ../sass/all-pages.scss */
-  #hi img, #hi div {
-    max-width: 18rem;
-  }
-}
-/*****  PROJECTS  *****/
-/* line 180, ../sass/all-pages.scss */
-.heroImage h1, .heroImage h2 {
-  color: #fff;
-  text-shadow: 1px 1px 3px #111;
-  margin: 0;
-}
-/* line 186, ../sass/all-pages.scss */
-.heroImage h1 {
-  padding-top: 18rem;
-  text-transform: uppercase;
-}
-/* line 191, ../sass/all-pages.scss */
-.heroImage h2 {
-  padding-bottom: 2rem;
-  text-transform: capitalize !important;
-}
-
-/* line 197, ../sass/all-pages.scss */
-#llb-cover {
-  background: #dddddd no-repeat url("../img/cover-llb.jpg") center center;
-  background-size: cover;
-}
-
-/* line 202, ../sass/all-pages.scss */
-#pum-cover {
-  background: #dddddd no-repeat url("../img/cover-pum.jpg") center center;
-  background-size: cover;
-}
-
-/* line 207, ../sass/all-pages.scss */
-#wok-cover {
-  background: #dddddd no-repeat url("../img/cover-wok.jpg") center center;
-  background-size: cover;
-}
-
-/* line 212, ../sass/all-pages.scss */
-#goo-cover {
-  background: #dddddd no-repeat url("../img/cover-goo.jpg") center center;
-  background-size: cover;
-}
-
-/* line 217, ../sass/all-pages.scss */
-#oak-cover {
-  background: #dddddd no-repeat url("../img/cover-oak.jpg") center center;
-  background-size: cover;
-}
-
-/* line 222, ../sass/all-pages.scss */
-#gym-cover {
-  background: #dddddd no-repeat url("../img/cover-gym.jpg") center center;
-  background-size: cover;
-}
-
-/* line 229, ../sass/all-pages.scss */
-.project .back-to-home {
-  display: block;
-  position: absolute;
-  z-index: 1;
-  padding: 1rem;
-  width: 100%;
-  box-shadow: 0px 0px 1rem #000;
-  opacity: .92;
-  background: #fff;
-  margin-bottom: -3rem;
-}
-/* line 240, ../sass/all-pages.scss */
-.project .back-to-home :hover {
-  opacity: 1;
-}
-/* line 246, ../sass/all-pages.scss */
-.project img {
-  width: 100%;
-}
-/* line 250, ../sass/all-pages.scss */
-.project .row {
-  max-width: 80rem;
-  padding-top: 1rem;
-}
-/* line 255, ../sass/all-pages.scss */
-.project .lede {
-  font-size: 1.4rem;
-}
-/* line 259, ../sass/all-pages.scss */
-.project h2 {
-  text-transform: uppercase;
-}
-/* line 263, ../sass/all-pages.scss */
-.project .content {
-  padding-top: 1.25rem;
-}
-/* line 266, ../sass/all-pages.scss */
-.project .content .row {
-  padding-bottom: 1rem;
-}
-/* line 270, ../sass/all-pages.scss */
-.project .content h2:before {
-  content: "▁";
-  position: absolute;
-  top: -2.5rem;
-  font-size: 2.5rem;
-}
-/* line 279, ../sass/all-pages.scss */
-.project .content dt {
-  font-weight: normal;
-  font-size: .75rem;
-  line-height: .75rem;
-  padding-top: 1rem;
-}
-/* line 286, ../sass/all-pages.scss */
-.project .content dd {
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 1.25rem;
-}
-/* line 292, ../sass/all-pages.scss */
-.project .content ul {
-  list-style: square;
-  padding-left: 2rem;
-}
-/* line 297, ../sass/all-pages.scss */
+/* line 1833, ../sass/foundation.scss */
 .project .content img {
   box-shadow: 1px 1px 8px #ddd;
 }

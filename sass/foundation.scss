@@ -1662,6 +1662,7 @@ label.error {
 }
 
 #social-media{
+  width: 9rem;
   a{
     display: inline-block;
     height: 2.125rem;
@@ -1696,49 +1697,6 @@ label.error {
       background-position: -67px -34px;
     }
   }
-}
-
-
-@media only screen and (min-width: 480px) and (max-width: 767px){
-
-#me{
-  width: 35%;
-  display: inline-block;
-  vertical-align: top;
-}
-
-
-
-#hi div{
-  margin-left: 1rem;
-  width: 60%;
-  display: inline-block;
-}
-
-}
-
-/*----Above 768----*/
-@media only screen and (min-width: 640px){
-#hi{
-	position:fixed;
-	top: 0;
-	bottom: 0;
-}
-
-#me{
-  margin: 1rem auto;
-  width: 100%;
-  padding: 0 1rem;
-}
-
-#hi div{
-  width: 100%;
-  padding: 1rem;
-}
-
-#hi img, #hi div{
-  max-width: 18rem;
-}
 }
 
 
@@ -1788,7 +1746,6 @@ label.error {
   background: #ddd no-repeat url('../img/cover-oak.jpg') center center;
   background-size: cover;
 }
-
 
 
 #goo-cover{
