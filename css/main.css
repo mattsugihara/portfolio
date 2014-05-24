@@ -2648,18 +2648,24 @@ label.error {
 }
 
 /* line 1787, ../sass/foundation.scss */
-#goo-cover {
-  background: #dddddd no-repeat url("../img/cover-goo.jpg") center center;
-  background-size: cover;
-}
-
-/* line 1792, ../sass/foundation.scss */
 #oak-cover {
   background: #dddddd no-repeat url("../img/cover-oak.jpg") center center;
   background-size: cover;
 }
 
-/* line 1799, ../sass/foundation.scss */
+/* line 1794, ../sass/foundation.scss */
+#goo-cover {
+  background: #dddddd no-repeat url("../img/cover-goo.jpg") center center;
+  background-size: cover;
+}
+
+/* line 1800, ../sass/foundation.scss */
+#car-cover {
+  background: #dddddd no-repeat url("../img/cover-car.jpg") center center;
+  background-size: cover;
+}
+
+/* line 1808, ../sass/foundation.scss */
 .project .back-to-home {
   display: block;
   position: absolute;
@@ -2671,61 +2677,61 @@ label.error {
   background: #fff;
   margin-bottom: -3rem;
 }
-/* line 1810, ../sass/foundation.scss */
+/* line 1819, ../sass/foundation.scss */
 .project .back-to-home :hover {
   opacity: 1;
 }
-/* line 1816, ../sass/foundation.scss */
+/* line 1825, ../sass/foundation.scss */
 .project img {
   width: 100%;
 }
-/* line 1820, ../sass/foundation.scss */
+/* line 1829, ../sass/foundation.scss */
 .project .row {
   max-width: 80rem;
   padding-top: 1rem;
 }
-/* line 1825, ../sass/foundation.scss */
+/* line 1834, ../sass/foundation.scss */
 .project .lede {
   font-size: 1.4rem;
 }
-/* line 1829, ../sass/foundation.scss */
+/* line 1838, ../sass/foundation.scss */
 .project h2 {
   text-transform: uppercase;
 }
-/* line 1833, ../sass/foundation.scss */
+/* line 1842, ../sass/foundation.scss */
 .project .content {
   padding-top: 1.25rem;
 }
-/* line 1836, ../sass/foundation.scss */
+/* line 1845, ../sass/foundation.scss */
 .project .content .row {
   padding-bottom: 1rem;
 }
-/* line 1840, ../sass/foundation.scss */
+/* line 1849, ../sass/foundation.scss */
 .project .content h2:before {
   content: "▁";
   position: absolute;
   top: -2.5rem;
   font-size: 2.5rem;
 }
-/* line 1849, ../sass/foundation.scss */
+/* line 1858, ../sass/foundation.scss */
 .project .content dt {
   font-weight: normal;
   font-size: .75rem;
   line-height: .75rem;
   padding-top: 1rem;
 }
-/* line 1856, ../sass/foundation.scss */
+/* line 1865, ../sass/foundation.scss */
 .project .content dd {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 1.25rem;
 }
-/* line 1862, ../sass/foundation.scss */
+/* line 1871, ../sass/foundation.scss */
 .project .content ul {
   list-style: square;
   padding-left: 2rem;
 }
-/* line 1867, ../sass/foundation.scss */
+/* line 1876, ../sass/foundation.scss */
 .project .content img {
   box-shadow: 1px 1px 8px #ddd;
 }
