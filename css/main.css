@@ -36,7 +36,7 @@ a:hover {
 
 /* line 35, ../sass/foundation.scss */
 a:focus {
-  outline: none;
+  outline: 3px solid #5f6ade;
 }
 
 /* line 39, ../sass/foundation.scss */
@@ -1219,7 +1219,7 @@ td {
 /* Default Link Styles */
 /* line 764, ../sass/foundation.scss */
 a {
-  color: #6a76f7;
+  color: #5f6ade;
   text-decoration: none;
   line-height: inherit;
 }
@@ -2505,129 +2505,141 @@ label.error {
   background: #DDD;
   border-bottom: .25rem solid #fff;
 }
-/* line 1635, ../sass/foundation.scss */
+/* line 1634, ../sass/foundation.scss */
+#work ul li :focus {
+  opacity: .7;
+}
+/* line 1638, ../sass/foundation.scss */
 #work ul li a {
   display: block;
   background-size: cover;
   height: 18.75rem;
-  transition: all .3s ease;
+  transition: all .1s ease;
 }
-/* line 1648, ../sass/foundation.scss */
+/* line 1651, ../sass/foundation.scss */
 #work ul :last-child {
   border: none;
 }
 
 /********  hi  *****************/
-/* line 1658, ../sass/foundation.scss */
+/* line 1661, ../sass/foundation.scss */
 #hi img, #hi div {
   display: block;
   margin: 1rem auto;
   max-width: 100%;
 }
 
-/* line 1664, ../sass/foundation.scss */
+/* line 1667, ../sass/foundation.scss */
 #social-media {
   width: 9rem;
 }
-/* line 1666, ../sass/foundation.scss */
+/* line 1669, ../sass/foundation.scss */
 #social-media a {
   display: inline-block;
   height: 2.125rem;
   width: 2.125rem;
   margin-right: 1rem;
 }
-/* line 1671, ../sass/foundation.scss */
+/* line 1674, ../sass/foundation.scss */
 #social-media a:last-child {
   margin-right: 0;
 }
-/* line 1676, ../sass/foundation.scss */
+/* line 1679, ../sass/foundation.scss */
 #social-media #twitter {
   background: no-repeat url("/img/sprite.png");
 }
-/* line 1679, ../sass/foundation.scss */
+/* line 1682, ../sass/foundation.scss */
 #social-media #twitter:hover {
   background-position: 0px -34px;
 }
-/* line 1683, ../sass/foundation.scss */
+/* line 1686, ../sass/foundation.scss */
 #social-media #linked-in {
   background: no-repeat url("/img/sprite.png");
   background-position: -33px 0px;
 }
-/* line 1687, ../sass/foundation.scss */
+/* line 1690, ../sass/foundation.scss */
 #social-media #linked-in:hover {
   background-position: -33px -34px;
 }
-/* line 1692, ../sass/foundation.scss */
+/* line 1695, ../sass/foundation.scss */
 #social-media #github {
   background: no-repeat url("/img/sprite.png");
   background-position: -67px 0px;
 }
-/* line 1696, ../sass/foundation.scss */
+/* line 1699, ../sass/foundation.scss */
 #social-media #github:hover {
   background-position: -67px -34px;
 }
 
+@media only screen and (min-width: 640px) {
+  /* line 1706, ../sass/foundation.scss */
+  #hi {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+}
 /*****  PROJECTS  *****/
-/* line 1708, ../sass/foundation.scss */
+/* line 1719, ../sass/foundation.scss */
 .heroImage h1, .heroImage h2 {
   color: #fff;
   text-shadow: 1px 1px 3px #111;
   margin: 0;
 }
-/* line 1714, ../sass/foundation.scss */
+/* line 1725, ../sass/foundation.scss */
 .heroImage h1 {
   padding-top: 18rem;
   text-transform: uppercase;
 }
-/* line 1719, ../sass/foundation.scss */
+/* line 1730, ../sass/foundation.scss */
 .heroImage h2 {
   padding-bottom: 2rem;
   text-transform: capitalize !important;
 }
 
-/* line 1725, ../sass/foundation.scss */
+/* line 1736, ../sass/foundation.scss */
 #llb-cover {
   background: #dddddd no-repeat url("../img/cover-llb.jpg") center center;
   background-size: cover;
 }
 
-/* line 1730, ../sass/foundation.scss */
+/* line 1741, ../sass/foundation.scss */
 #pum-cover {
   background: #dddddd no-repeat url("../img/cover-pum.jpg") center center;
   background-size: cover;
 }
 
-/* line 1735, ../sass/foundation.scss */
+/* line 1746, ../sass/foundation.scss */
 #mic-cover {
   background: #dddddd no-repeat url("../img/cover-mic.jpg") center center;
   background-size: cover;
 }
 
-/* line 1740, ../sass/foundation.scss */
+/* line 1751, ../sass/foundation.scss */
 #wok-cover {
   background: #dddddd no-repeat url("../img/cover-wok.jpg") center center;
   background-size: cover;
 }
 
-/* line 1745, ../sass/foundation.scss */
+/* line 1756, ../sass/foundation.scss */
 #oak-cover {
   background: #dddddd no-repeat url("../img/cover-oak.jpg") center center;
   background-size: cover;
 }
 
-/* line 1751, ../sass/foundation.scss */
+/* line 1762, ../sass/foundation.scss */
 #goo-cover {
   background: #dddddd no-repeat url("../img/cover-goo.jpg") center center;
   background-size: cover;
 }
 
-/* line 1757, ../sass/foundation.scss */
+/* line 1768, ../sass/foundation.scss */
 #car-cover {
   background: #dddddd no-repeat url("../img/cover-car.jpg") center center;
   background-size: cover;
 }
 
-/* line 1765, ../sass/foundation.scss */
+/* line 1776, ../sass/foundation.scss */
 .project .back-to-home {
   display: block;
   position: absolute;
@@ -2639,61 +2651,61 @@ label.error {
   background: #fff;
   margin-bottom: -3rem;
 }
-/* line 1776, ../sass/foundation.scss */
+/* line 1787, ../sass/foundation.scss */
 .project .back-to-home :hover {
   opacity: 1;
 }
-/* line 1782, ../sass/foundation.scss */
+/* line 1793, ../sass/foundation.scss */
 .project img {
   width: 100%;
 }
-/* line 1786, ../sass/foundation.scss */
+/* line 1797, ../sass/foundation.scss */
 .project .row {
   max-width: 80rem;
   padding-top: 1rem;
 }
-/* line 1791, ../sass/foundation.scss */
+/* line 1802, ../sass/foundation.scss */
 .project .lede {
   font-size: 1.4rem;
 }
-/* line 1795, ../sass/foundation.scss */
+/* line 1806, ../sass/foundation.scss */
 .project h2 {
   text-transform: uppercase;
 }
-/* line 1799, ../sass/foundation.scss */
+/* line 1810, ../sass/foundation.scss */
 .project .content {
   padding-top: 1.25rem;
 }
-/* line 1802, ../sass/foundation.scss */
+/* line 1813, ../sass/foundation.scss */
 .project .content .row {
   padding-bottom: 1rem;
 }
-/* line 1806, ../sass/foundation.scss */
+/* line 1817, ../sass/foundation.scss */
 .project .content h2:before {
   content: "▁";
   position: absolute;
   top: -2.5rem;
   font-size: 2.5rem;
 }
-/* line 1815, ../sass/foundation.scss */
+/* line 1826, ../sass/foundation.scss */
 .project .content dt {
   font-weight: normal;
   font-size: .75rem;
   line-height: .75rem;
   padding-top: 1rem;
 }
-/* line 1822, ../sass/foundation.scss */
+/* line 1833, ../sass/foundation.scss */
 .project .content dd {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 1.25rem;
 }
-/* line 1828, ../sass/foundation.scss */
+/* line 1839, ../sass/foundation.scss */
 .project .content ul {
   list-style: square;
   padding-left: 2rem;
 }
-/* line 1833, ../sass/foundation.scss */
+/* line 1844, ../sass/foundation.scss */
 .project .content img {
   box-shadow: 1px 1px 8px #ddd;
 }
