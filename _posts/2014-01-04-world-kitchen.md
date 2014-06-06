@@ -54,21 +54,21 @@ htmlID: "wok"
 		</p>
 	</div>
 	<div class="large-8 pull-4 columns">
-		 <a href="/img/wok-pdp.png"><img src="/img/wok-pdp-small.png" alt="A wireframe of the pdp when viewed on a narrow screen" /></a>
+		 <a href="/img/wok1.png"><img src="/img/wok1-small.png" alt="A wireframe of the pdp when viewed on a narrow screen" /></a>
 	</div>
 </div>
 <div class="row">
 	<div class="large-8 columns end">
-		 <a href="/img/wok-mobile-navigation.png"><img src="/img/wok-mobile-navigation.png" alt="A diagram showing how the off-canvas mobile navigation pattern works" /></a>
+		 <a href="/img/wok2.png"><img src="/img/wok2-small.png" alt="A diagram showing how the off-canvas mobile navigation pattern works" /></a>
 	</div>
 </div>
 <div class="row">
 	<div class="large-8 columns end">
-		 <a href="/img/wok-brand-landing-page.png"><img src="/img/wok-brand-landing-page.png" alt="A wireframe showing the brand landing page template" /></a>
+		 <a href="/img/wok3.png"><img src="/img/wok3-small.png" alt="A wireframe showing the brand landing page template" /></a>
 	</div>
 </div>
 <div class="row">
 	<div class="large-8 columns end">
-		 <a href="/img/wok-overlay-results.png"><img src="/img/wok-overlay-results.png" alt="A wireframe showing the store locator seach results page" /></a>
+		 <a href="/img/wok4.png"><img src="/img/wok4-small.png" alt="A wireframe showing the store locator seach results page" /></a>
 	</div>
 </div>
