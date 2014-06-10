@@ -2,3 +2,4 @@ name: portfolio
 markdown: redcarpet
 pygments: true
 permalink: :title
+exclude: [Procfile, config.rb, sass]
