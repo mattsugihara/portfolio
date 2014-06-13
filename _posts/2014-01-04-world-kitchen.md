@@ -30,7 +30,7 @@ htmlID: "wok"
 	<div class="small-12 medium-8 large-8 columns lede">
 		<h6>The Ask</h6>
 		<p>
-			Create a responsive ecommerce site for World Kitchen that is flexible enough to showcases each of the company's six brands while leveraging a unified design system to ease maintenance.
+			Create a responsive ecommerce site for World Kitchen that is flexible enough to showcase each of the company's six brands while leveraging a unified design system to ease maintenance.
 		</p>
 		<h6>Responsibilities</h6>
 		<ul>
