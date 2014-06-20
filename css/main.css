@@ -1360,7 +1360,11 @@ blockquote p {
 #hi img, #hi div {
   display: block;
   margin: 1rem auto;
-  max-width: 100%;
+  max-width: 80%;
+}
+
+#hi img {
+  border-radius: 50%;
 }
 
 #social-media {
