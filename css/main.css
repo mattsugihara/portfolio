@@ -1362,6 +1362,9 @@ blockquote p {
   margin: 1rem auto;
   max-width: 80%;
 }
+#hi img h1, #hi div h1 {
+  text-align: center;
+}
 
 #hi img {
   border-radius: 50%;
@@ -1520,4 +1523,22 @@ blockquote p {
 }
 .project .content img {
   box-shadow: 1px 1px 8px #ddd;
+}
+
+#watch {
+  position: relative;
+}
+
+#face {
+  position: absolute;
+  width: 19.927095990279%;
+  margin-left: 26.002430133657%;
+  margin-top: 34.507897934386%;
+  top: 0;
+  left: 0;
+}
+#face img {
+  position: absolute;
+  width: 100%;
+  box-shadow: none;
 }

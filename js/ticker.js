@@ -42,11 +42,6 @@ function spinHands () {
 function updateClock () {
 	getCurrentTime();
 	spinHands();
-	
-	// set digital clock, remove
-	var dateString = hour + ':' + minute + ':' + second;
-	var clock = document.getElementById('clock');
-	clock.innerHTML = dateString;
 
 }
 
