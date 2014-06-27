@@ -30,7 +30,7 @@ htmlID: "wok"
 	<div class="small-12 medium-8 large-8 columns lede">
 		<h6>The Ask</h6>
 		<p>
-			Create a responsive ecommerce site for World Kitchen that is flexible enough to showcase each of the company's six brands while leveraging a unified design system to ease maintenance.
+			Create a unified responsive ecommerce site for World Kitchen that is flexible enough to showcase each of the company's six brands while leveraging a unified design system to ease maintenance.
 		</p>
 		<h6>Responsibilities</h6>
 		<ul>
@@ -47,10 +47,11 @@ htmlID: "wok"
 	</div>
 	<div class="large-4 push-8 columns">
 		<p>
-			While this site would function as a "digital flagship" for the brands, the client had deep ties with existing retailers that it wished to protect. To accomplish this, we recommended against holding sales and always pricing products at MSRP, and made it easy for customers to find retailers (both on and off line) where they might be able to find the product more cheaply.
+			Though the site was to become the "digital flagship" for World Kitchen's brands, it could not damage any of the deep ties World Kitchen had created with retailers like like Walmart and Target.
+			To accomplish this, we recommended that World Kitchen focus on delivering content that only they could deliver.
 		</p>
 		<p>
-			However, to make purchasing directly from the brand seem special, we created several modules for displaying content on the various pages on the site. This would help communicate the value of the product to the customers and encourage them to buy direct. 
+			Early in discovery, we identified that despite being popular with an older demographic, many of the brands, particularly Pyrex and Corelle, had significatn activity on Instagram and Twitter. Knowing this, we helped World Kitchen to leverage that activity and show it directly on the site.
 		</p>
 	</div>
 	<div class="large-8 pull-4 columns">
