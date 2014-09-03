@@ -1,5 +1,50 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,700|Roboto+Slab);
+/**
+ * @license
+ * MyFonts Webfont Build ID 2867404, 2014-08-22T03:27:28-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Loew by The Northern Block Ltd
+ * URL: http://www.myfonts.com/fonts/northernblock/loew/regular/
+ * 
+ * Webfont: Loew Italic by The Northern Block Ltd
+ * URL: http://www.myfonts.com/fonts/northernblock/loew/italic/
+ * 
+ * Webfont: Loew Bold by The Northern Block Ltd
+ * URL: http://www.myfonts.com/fonts/northernblock/loew/bold/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2867404
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Jonathan Hill. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2bc0cc");
+@font-face {
+  font-family: 'Loew-Regular';
+  src: url("/fonts/2BC0CC_0_0.eot");
+  src: url("/fonts/2BC0CC_0_0.eot?#iefix") format("embedded-opentype"), url("/fonts/2BC0CC_0_0.woff") format("woff"), url("/fonts/2BC0CC_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Loew-Italic';
+  src: url("/fonts/2BC0CC_1_0.eot");
+  src: url("/fonts/2BC0CC_1_0.eot?#iefix") format("embedded-opentype"), url("/fonts/2BC0CC_1_0.woff") format("woff"), url("/fonts/2BC0CC_1_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Loew-Bold';
+  src: url("/fonts/2BC0CC_2_0.eot");
+  src: url("/fonts/2BC0CC_2_0.eot?#iefix") format("embedded-opentype"), url("/fonts/2BC0CC_2_0.woff") format("woff"), url("/fonts/2BC0CC_2_0.ttf") format("truetype");
+}
+
 *,
 *:before,
 *:after {
@@ -18,7 +63,7 @@ body {
   color: #333;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Loew-Regular', sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1051,7 +1096,7 @@ p aside {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'adelle', serif;
   font-weight: bold;
   font-style: normal;
   color: #333;
@@ -1501,13 +1546,13 @@ blockquote p {
   color: #6069de;
 }
 .project .content dt {
-  font-weight: normal;
+  font-family: 'Loew-Bold';
   font-size: .75rem;
   line-height: .75rem;
   padding-top: 1rem;
 }
 .project .content dd {
-  font-weight: 800;
+  font-family: 'Loew-Regular';
   text-transform: uppercase;
   font-size: 1.25rem;
 }

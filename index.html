@@ -19,7 +19,7 @@ layout: main
 </div>
 <div class="large-8 columns" id="work">
 	<ul>
-	{% for post in site.posts %}
+	{% for post in site.categories.work %}
       <li>
       	<a href="{{ post.url }}/" id="{{ post.htmlID }}-cover">
       		<h2>{{ post.client }}</h2>
