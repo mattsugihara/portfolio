@@ -1,0 +1,87 @@
+$body-font:"Helvetica Neue", Arial, sans-serif;
+
+body{
+	font-family: $body-font;
+	font-size: 3rem;
+  font-weight: 100;
+	margin:0;
+	padding:0;
+}
+
+form{
+  display: inline-block;
+  background:rgba(255,255,255,.3);
+  padding:1rem;
+  border-radius: .125rem;
+}
+
+
+#container{
+	text-align: center;
+	margin-top: 40vh;
+}
+
+input{
+	border:0;
+  padding: 0;
+  margin: 0; 
+	background: transparent;
+	font-size:2rem;
+	width: 4rem;
+  text-align: center;
+  font-family: $body-font;
+}
+
+$placeholder-color: #bbb;
+$placeholder-size: 2rem;
+$placeholder-weight: 100;
+
+
+/* WebKit browsers */
+::-webkit-input-placeholder {
+  color: $placeholder-color;
+  font-family: $body-font;
+  font-size: $placeholder-size;
+  font-weight: $placeholder-weight;
+  text-align: center;
+}
+
+// /* Mozilla Firefox 4 to 18 */
+// :-moz-placeholder {
+//   color: $placeholder-color;
+//   font-size: $placeholder-size;
+//   opacity: 1;
+//   text-align: center;
+// }
+
+/* Mozilla Firefox 19+ */
+::-moz-placeholder{
+  color: $placeholder-color;
+  font-family: $body-font;
+  font-size: $placeholder-size;
+  font-weight: $placeholder-weight;
+  opacity: 1;
+  text-align: center;
+}
+/* Internet Explorer 10+ */
+:-ms-input-placeholder { 
+  color: $placeholder-color;
+  font-family: $body-font;
+  font-size: $placeholder-size;
+  font-weight: $placeholder-weight;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+input:focus{
+	outline: none;
+	border-bottom: 1px #333 solid; 
+}
+
