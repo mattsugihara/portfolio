@@ -32,19 +32,16 @@
   src: url("/fonts/2BC0CC_0_0.eot");
   src: url("/fonts/2BC0CC_0_0.eot?#iefix") format("embedded-opentype"), url("/fonts/2BC0CC_0_0.woff") format("woff"), url("/fonts/2BC0CC_0_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Loew-Italic';
   src: url("/fonts/2BC0CC_1_0.eot");
   src: url("/fonts/2BC0CC_1_0.eot?#iefix") format("embedded-opentype"), url("/fonts/2BC0CC_1_0.woff") format("woff"), url("/fonts/2BC0CC_1_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Loew-Bold';
   src: url("/fonts/2BC0CC_2_0.eot");
   src: url("/fonts/2BC0CC_2_0.eot?#iefix") format("embedded-opentype"), url("/fonts/2BC0CC_2_0.woff") format("woff"), url("/fonts/2BC0CC_2_0.ttf") format("truetype");
 }
-
 *,
 *:before,
 *:after {
@@ -1328,8 +1325,7 @@ blockquote p {
 
   @page {
     margin: 0.5cm;
-}
-
+  }
   p,
   h2,
   h3 {
@@ -1492,16 +1488,6 @@ blockquote p {
 
 #oak-cover {
   background: #dddddd no-repeat url("../img/cover-oak.jpg") center center;
-  background-size: cover;
-}
-
-#goo-cover {
-  background: #dddddd no-repeat url("../img/cover-goo.jpg") center center;
-  background-size: cover;
-}
-
-#car-cover {
-  background: #dddddd no-repeat url("../img/cover-car.jpg") center center;
   background-size: cover;
 }
 
