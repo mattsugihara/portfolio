@@ -1,6 +1,9 @@
 @import "settings";
-@import "foundation";
 
+@import "foundation/components/grid";
+@import "foundation/components/type";
+
+// @import "foundation";
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
@@ -38,3 +41,92 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+#hi{
+	@extend .columns;
+	@extend .small-12;
+	@extend .medium-5;
+	@extend .large-4;
+	padding:2%;
+	top:0;
+	bottom: 0;
+
+	@media #{$medium-up}{
+		position: fixed;
+		top:0;
+		bottom: 0;	
+	}
+
+	img{
+		border-radius: 50%;
+		margin: auto;
+		display: block;
+	}
+}
+
+#work{
+	@extend .columns;
+	@extend .small-12;
+	@extend .medium-7;
+	@extend .large-8;
+	padding:0;
+	float:right;
+	// text-transform: uppercase;
+
+	h2, h3{
+		margin: 0;
+		color: #fff;
+		text-shadow: 1px 1px 3px #111;
+		padding-left: 2rem;
+	}
+
+	h2{
+		padding-top: 15rem
+	}
+
+	h3{
+		padding-bottom: 2rem;
+	}
+
+	ul{
+		list-style: none;
+		margin:0;
+	}
+
+	li{
+		padding-bottom:.25rem;
+
+		&:last-child{
+			padding-bottom: 0;
+		}
+	}
+
+	a{
+		display: block;
+	}
+}
+
+#llb-cover{
+  background: #ddd no-repeat url('../img/cover-llb.jpg') center center;
+  background-size: cover;
+}
+
+#pum-cover{
+  background: #ddd no-repeat url('../img/cover-pum.jpg') center center;
+  background-size: cover;
+}
+
+#mic-cover{
+  background: #ddd no-repeat url('../img/cover-mic.jpg') center center;
+  background-size: cover;
+}
+
+#wok-cover{
+  background: #ddd no-repeat url('../img/cover-wok.jpg') center center;
+  background-size: cover;
+}
+
+#oak-cover{
+  background: #ddd no-repeat url('../img/cover-oak.jpg') center center;
+  background-size: cover;
+}
