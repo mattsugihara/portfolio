@@ -1,17 +1,14 @@
 ---
 layout: main
 ---
-<div class="project">
-	<a href="../" class="back-to-home">&#8592; Back</a>
-	<div class="heroImage" id="{{page.htmlID}}-cover">
-		<div class="row">
-			<div class="small-12 columns">
-				<h1>{{page.client}}</h1>
-				<h2>{{page.description}}</h2>
-			</div>
-		</div>
+
+<a href="../" class="back-to-home">&#8592; Back</a>
+<div class="cover" id="{{page.htmlID}}-cover">
+	<div class="container">
+		<h1 class="client-name">{{page.client}}</h1>
+		<h2 class="project-name">{{page.description}}</h2>
 	</div>
-	<div class="content">
-			{{ content }}
-	</div>
+</div>
+<div class="container">
+	{{ content }}
 </div>

@@ -71,22 +71,6 @@
 	@extend .large-8;
 	padding:0;
 	float:right;
-	// text-transform: uppercase;
-
-	h2, h3{
-		margin: 0;
-		color: #fff;
-		text-shadow: 1px 1px 3px #111;
-		padding-left: 2rem;
-	}
-
-	h2{
-		padding-top: 15rem
-	}
-
-	h3{
-		padding-bottom: 2rem;
-	}
 
 	ul{
 		list-style: none;
@@ -106,27 +90,122 @@
 	}
 }
 
+.cover{
+	background-size: cover !important;
+}
+
 #llb-cover{
   background: #ddd no-repeat url('../img/cover-llb.jpg') center center;
-  background-size: cover;
 }
 
 #pum-cover{
   background: #ddd no-repeat url('../img/cover-pum.jpg') center center;
-  background-size: cover;
 }
 
 #mic-cover{
   background: #ddd no-repeat url('../img/cover-mic.jpg') center center;
-  background-size: cover;
 }
 
 #wok-cover{
   background: #ddd no-repeat url('../img/cover-wok.jpg') center center;
-  background-size: cover;
 }
 
 #oak-cover{
   background: #ddd no-repeat url('../img/cover-oak.jpg') center center;
-  background-size: cover;
+}
+
+
+.client-name, .project-name{
+	margin: 0;
+	color: #fff;
+	text-shadow: 1px 1px 3px #111;
+}
+
+#work .client-name, #work .project-name{
+		padding-left: 2rem;
+}
+
+.client-name{
+	padding-top: 15rem;
+}
+
+.project-name{
+	padding-bottom: 2rem;
+}
+
+.container{
+	@extend .row;
+	padding: 0 2rem;
+}
+
+dl{
+	@extend .small-12;
+	@extend .medium-4;
+	@extend .columns;
+	padding-left: 0;
+}
+
+.lede{
+	@extend .small-12;
+	@extend .medium-8;
+	@extend .columns;
+	padding-left: 0;
+	max-width: 40rem;
+}
+
+h2{
+	clear:left;
+}
+
+.back-to-home{
+	display: block;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	padding: 1rem;
+	box-shadow: 0 0 2rem rgba(50,50,50,.5);
+	background: #fff;
+	background: rgba(255,255,255,.95);
+}
+
+.sample-deliverables > p, .sample-deliverables > div{
+	@extend .medium-4;
+	@extend .columns;
+	display: inline-block;
+	float:right;
+	clear:both;
+
+	@media #{$small-only}{
+		padding-left:0;
+		padding-right:0;
+	}
+}
+
+.sample-deliverables img{
+	@extend .medium-8;
+	@extend .columns;
+	padding-left: 0;
+	margin-bottom: 3rem;
+	box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+#watch{
+	width:100%;
+	float:left;
+}
+#face {
+  position: absolute;
+  top: 16.520467836257%;
+  left: 18.307006885379%;
+  width: 16.200891049008%;
+  height: 14.619883040936%;
+  
+}
+#face img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  padding:0;
+  display: none;
 }

@@ -18,9 +18,9 @@ layout: main
 	<ul>
 	{% for post in site.categories.work %}
       <li>
-      	<a href="{{ post.url }}/" id="{{ post.htmlID }}-cover">
-      		<h2>{{ post.client }}</h2>
-					<h3>{{ post.description }}</h3>
+      	<a href="{{ post.url }}/" id="{{ post.htmlID }}-cover" class="cover">
+      		<h2 class="client-name">{{ post.client }}</h2>
+					<h3 class="project-name">{{ post.description }}</h3>
       	</a>
       </li>
 	{% endfor %}
