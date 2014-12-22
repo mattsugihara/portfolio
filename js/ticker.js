@@ -1,6 +1,9 @@
 var hour;
 var minute;
 var second;
+var hourHand = document.getElementById('hour');
+var minuteHand = document.getElementById('minute');
+var secondHand = document.getElementById('second');
 
 function getCurrentTime () {
 	var date = new Date ();
@@ -15,10 +18,6 @@ function spinHands () {
 	hourHandPosition = (hour%12)*30;
 	minuteHandPosition = minute*6;
 	secondHandPosition = second*6;
-
-	var hourHand = document.getElementById('hour');
-	var minuteHand = document.getElementById('minute');
-	var secondHand = document.getElementById('second');
 
 	hourHand.style.webkitTransform = 'rotate('+hourHandPosition+'deg)';
   hourHand.style.mozTransform    = 'rotate('+hourHandPosition+'deg)';
@@ -44,6 +43,10 @@ function updateClock () {
 	spinHands();
 
 }
+
+hourHand.style.display = 'block';
+minuteHand.style.display = 'block';
+secondHand.style.display = 'block';
 
 updateClock();
 setInterval('updateClock()', 500);

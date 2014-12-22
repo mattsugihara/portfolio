@@ -1,0 +1,351 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2867404, 2014-08-22T03:27:28-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Loew by The Northern Block Ltd
+ * URL: http://www.myfonts.com/fonts/northernblock/loew/regular/
+ * 
+ * Webfont: Loew Italic by The Northern Block Ltd
+ * URL: http://www.myfonts.com/fonts/northernblock/loew/italic/
+ * 
+ * Webfont: Loew Bold by The Northern Block Ltd
+ * URL: http://www.myfonts.com/fonts/northernblock/loew/bold/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2867404
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Jonathan Hill. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2bc0cc");
+
+  
+@font-face {
+  font-family: 'Loew-Regular';
+  src: url('/fonts/2BC0CC_0_0.eot');
+  src: url('/fonts/2BC0CC_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/2BC0CC_0_0.woff') format('woff'),url('/fonts/2BC0CC_0_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+  font-family: 'Loew-Italic';
+  src: url('/fonts/2BC0CC_1_0.eot');
+  src: url('/fonts/2BC0CC_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/2BC0CC_1_0.woff') format('woff'),url('/fonts/2BC0CC_1_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+  font-family: 'Loew-Bold';
+  src: url('/fonts/2BC0CC_2_0.eot');
+  src: url('/fonts/2BC0CC_2_0.eot?#iefix') format('embedded-opentype'),url('/fonts/2BC0CC_2_0.woff') format('woff'),url('/fonts/2BC0CC_2_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'untitled-font-1';
+  src:url('/fonts/untitled-font-1.eot');
+  src:url('/fonts/untitled-font-1.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/untitled-font-1.woff') format('woff'),
+    url('/fonts/untitled-font-1.ttf') format('truetype'),
+    url('/fonts/untitled-font-1.svg#untitled-font-1') format('svg');
+}
+
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fontawesome-webfont:before {
+  content: "g";
+}
+.icon-twitter-circled:before {
+  content: "t";
+}
+.icon-linkedin-circled:before {
+  content: "i";
+}
+
+@import "settings";
+
+@import "foundation/components/grid";
+@import "foundation/components/type";
+
+// @import "foundation";
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+#hi{
+	@extend .columns;
+	@extend .small-12;
+	@extend .medium-5;
+	@extend .large-4;
+	padding:2%;
+	top:0;
+	bottom: 0;
+
+	h1{
+		text-align: center;
+	}
+
+	@media #{$medium-up}{
+		position: fixed;
+		top:0;
+		bottom: 0;	
+	}
+
+	img{
+		border-radius: 50%;
+		margin: auto;
+		display: block;
+	}
+
+	#social-media{
+		text-align: center;
+		font-size:2.5rem;
+
+		a{
+			padding: .5rem;
+		}
+	}
+}
+
+#work{
+	@extend .columns;
+	@extend .small-12;
+	@extend .medium-7;
+	@extend .large-8;
+	padding:0;
+	float:right;
+
+	ul{
+		list-style: none;
+		margin:0;
+	}
+
+	li{
+		padding-bottom:.25rem;
+
+		&:last-child{
+			padding-bottom: 0;
+		}
+	}
+
+	a{
+		display: block;
+	}
+}
+
+.cover{
+	background-size: cover !important;
+}
+
+#llb-cover{
+  background: #ddd no-repeat url('../img/cover-llb.jpg') center center;
+}
+
+#pum-cover{
+  background: #ddd no-repeat url('../img/cover-pum.jpg') center center;
+}
+
+#mic-cover{
+  background: #ddd no-repeat url('../img/cover-mic.jpg') center center;
+}
+
+#wok-cover{
+  background: #ddd no-repeat url('../img/cover-wok.jpg') center center;
+}
+
+#oak-cover{
+  background: #ddd no-repeat url('../img/cover-oak.jpg') center center;
+}
+
+
+.client-name, .project-name{
+	margin: 0;
+	color: #fff;
+	text-shadow: 1px 1px 3px #111;
+}
+
+#work .client-name, #work .project-name{
+		padding-left: 2rem;
+}
+
+.client-name{
+	padding-top: 15rem;
+}
+
+.project-name{
+	padding-bottom: 2rem;
+}
+
+.container{
+	@extend .row;
+	padding: 0  .5rem;
+
+	@media #{$medium-up}{
+		padding: 0 2rem;
+	}
+}
+
+dl{
+	@extend .small-12;
+	@extend .medium-4;
+	@extend .columns;
+	padding-left: 0;
+}
+
+.lede{
+	@extend .small-12;
+	@extend .medium-8;
+	@extend .columns;
+	padding-left: 0;
+	max-width: 40rem;
+}
+
+h2{
+	clear:left;
+}
+
+.back-to-home{
+	display: block;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	padding: 1rem;
+	box-shadow: 0 0 2rem rgba(50,50,50,.5);
+	background: #fff;
+	background: rgba(255,255,255,.95);
+}
+
+.sample-deliverables > p, .sample-deliverables > div{
+	@extend .medium-4;
+	@extend .columns;
+	display: inline-block;
+	float:right;
+	clear:both;
+
+	@media #{$small-only}{
+		padding-left:0;
+		padding-right:0;
+	}
+}
+
+.sample-deliverables img{
+	@extend .medium-8;
+	@extend .columns;
+	padding-left: 0;
+	
+	box-shadow: 1px 1px .25rem rgba(0,0,0,.3);
+
+	@media #{$medium-up}{
+		margin-bottom: 2rem;
+	}
+}
+
+#watch{
+	width:100%;
+	float:left;
+}
+#face {
+	position: absolute;
+	top: 17.3%;
+  left: 26.1%;
+  width: 24.301336573512%;
+  height: 14.75%;
+	
+	@media #{$medium-up}{
+	  top: 16.20467836257%;
+	  left: 18.307006885379%;
+	  width: 16.200891049008%;
+ 	}
+}
+
+#face img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  padding:.25rem;
+  margin:0;
+  display: none;
+}
