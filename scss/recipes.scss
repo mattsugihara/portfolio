@@ -3,6 +3,16 @@
 	width:80%;
 	max-width: 40rem;
 	font-size:1.3rem;
+	padding-left: 1rem;
+}
+
+.list-of-recipes{
+	list-style: none;
+	margin: 0;
+
+	li{
+		padding: .25rem 0;
+	}
 }
 
 h1{
