@@ -9,11 +9,11 @@ permalink: recipes/Pea_and_Spicy_Sausage_Pie
  - 2 Tbsp olive oil
  - 1 large yellow onion thinly sliced
  - 8 garlic cloves, minced
- - 1 Bay Leaf
+ - 1 bay leaf
  - 2 sprigs fresh thyme
  - salt
  - &frac12; tsp dried italian herb mix
- - &frac34; spciy pork sausage
+ - &frac34; lb. spciy pork sausage
  - 28oz. can diced tomatoes
  - 3 Tbsp. heavy cream
  - 1 cup frozen peas

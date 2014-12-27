@@ -1,9 +1,8 @@
 .recipe {
-	margin: 0px auto;
-	width:80%;
-	max-width: 40rem;
-	font-size:1.3rem;
-	padding-left: 1rem;
+	margin:0px auto;
+	width:100%;
+	max-width:40rem;
+	padding:1rem;
 }
 
 .list-of-recipes{
@@ -28,7 +27,8 @@ h3{
 }
 
 ul, ol{
-	margin-left: 2rem;
+	// margin-left: 2rem;
+	font-size: 1.2rem;
 }
 
 ul{
