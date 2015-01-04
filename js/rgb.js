@@ -45,8 +45,14 @@ function updateColorValue(color) {
 	}
 }
 
+//restricts input to numbers only
+// var key = e.keyCode ? e.keyCode : e.which;
+//   if ( isNaN(String.fromCharCode(key))) return false;
+
 //eventually this should also prevent input >255
 function cleanInput (color) {
+	
+
 	lengthOfCurrentField = inputFields[color].value.length;
 	previousColor = (color - 1);
 	nextColor = color+1;

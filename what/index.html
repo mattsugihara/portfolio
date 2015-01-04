@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="thisDevice.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<body>
+
+<div id="container">
+	<div id="width-box">
+		<div id="width">
+			unclear
+		</div>
+		<div id="horizontal-line"></div>
+
+	</div>
+	<div id="height-box">
+		<div id="spacer"></div>
+		<div id="height">
+			unclear
+		</div>
+		<div id="vertical-line"></div>
+	</div>
+</div>
+
+<!--
+<div>
+	height<span id="height">unclear</span>
+</div>
+<div>
+	orientation<span id="orientation">unclear</span>
+</div>
+<div>
+	pixel density<span id="density">2</span>
+</div>
+<div>
+	user agent<span id="agent">unclear</span>
+</div>
+-->
+<script type="text/javascript">
+
+var viewportWidth, viewportHeight, degreeOrientation, screenOrientation = 'unclear', density,agent;
+
+function reDraw(){
+	viewportWidth  = document.documentElement.clientWidth;
+	viewportHeight = document.documentElement.clientHeight;
+	degreeOrientation = Math.abs(window.orientation);
+	density = window.devicePixelRatio;
+	agent = navigator.userAgent;
+
+	if (0==degreeOrientation){
+		screenOrientation = 'portrait';
+	}
+	
+	if (90==degreeOrientation){
+		screenOrientation = 'landscape';
+	}
+
+	document.getElementById('width').innerHTML = viewportWidth;
+	document.getElementById('height').innerHTML = viewportHeight;
+	document.getElementById('orientation').innerHTML = screenOrientation;
+	document.getElementById('density').innerHTML = density;
+	document.getElementById('agent').innerHTML = agent;
+}
+
+
+window.onload = reDraw;
+window.onresize = reDraw;
+</script>
+
+
+
+</body>
+</html>
