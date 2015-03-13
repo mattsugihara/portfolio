@@ -2,4 +2,4 @@ name: portfolio
 markdown: redcarpet
 pygments: true
 permalink: :title
-exclude: [Procfile, config.rb, sass]
+exclude: [Procfile, config.rb, sass, bower.json, bower_components]
