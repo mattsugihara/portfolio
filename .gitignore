@@ -3,3 +3,4 @@ _drafts
 css
 .sass-cache
 .DS_Store
+npm-debug.log
