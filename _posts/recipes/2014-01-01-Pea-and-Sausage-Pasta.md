@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Pea and Spicy Sausage Pie"
+title: "Pea and Spicy Sausage Pasta"
 category: recipe
 permalink: recipes/Pea_and_Spicy_Sausage_Pie
 ---

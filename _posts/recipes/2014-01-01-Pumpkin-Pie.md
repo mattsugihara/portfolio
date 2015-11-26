@@ -13,7 +13,7 @@ permalink: recipes/pumpkin-pie
  - &frac12; tsp cloves
  - 1 tsp cinnamon
  - &frac12; tsp ginger
- - 1 &frac23; cup evaporated milk or light cream
+ - 1 &#8532; cup evaporated milk or light cream
 
 ##Directions
 1. Mix ingredients in order given.

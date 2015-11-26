@@ -7,7 +7,7 @@ permalink: recipes/biscuits-and-gravy
 
 ## Ingredients
 - 1 lb sausage, casing removed
-- &frac13; cup flour
+- &#8531; cup flour
 - 3 to four cups milk
 
 

@@ -15,7 +15,7 @@ permalink: recipes/corn-bread
 ##Wet Ingredients
  - 1 egg, lighly beaten
  - 1 cup milk
- - &frac13; cup melted butter
+ - &#8531; cup melted butter
 	
 ##Directions
 1. Preheat oven to 400&#176;F

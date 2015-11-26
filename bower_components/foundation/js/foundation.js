@@ -2243,7 +2243,7 @@
           //   console.log($(this).html(), a, b, c);
           // });
 
-          if (/IMG/.test(el[0].nodeName)) {
+          if (/images/.test(el[0].nodeName)) {
             var orig_path = el[0].src;
 
             if (new RegExp(path, 'i').test(orig_path)) return;

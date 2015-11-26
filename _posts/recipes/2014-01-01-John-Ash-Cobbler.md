@@ -2,7 +2,7 @@
 layout: recipe
 title: "John Ash Cobbler"
 category: recipe
-permalink: recipes/cobbler
+permalink: recipes/joch-ash-cobbler
 ---
 
 ##Ingredients: 

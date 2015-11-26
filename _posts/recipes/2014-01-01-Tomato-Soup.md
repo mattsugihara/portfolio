@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Cream of Tomato Soup"
+title: "Tomato Soup"
 category: recipe
 permalink: recipes/tomato-soup
 ---
